@@ -1,4 +1,9 @@
 img {
   width: 35%;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  /* border-top-left-radius: 25%; */
+  /* border-top-right-radius: 25%; */
+  border-radius: 50%;
+  float: left;
+  padding: 10px;
 }
