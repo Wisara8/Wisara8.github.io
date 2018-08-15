@@ -7,3 +7,15 @@ img {
   float: left;
   padding: 10px;
 }
+
+main {
+  margin: 0;
+  background-color: #f5f5f5;
+
+}
+
+.infoSection {
+  /* margin: 0; */
+background-color: white
+
+}
