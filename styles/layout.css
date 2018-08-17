@@ -25,12 +25,16 @@ body {
 }
 
 #profile p {
-  width: 35%;
+  /* width: 35%; */
+  clear: both:
 }
 
 .infoSection {
   /* margin: 0; */
 background-color: white;
+width: 80%;
+margin: 0 10%;
+padding: 10px;
 
 }
 
