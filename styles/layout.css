@@ -1,5 +1,5 @@
 img {
-  width: 35%;
+  width: 275px;
   /* border-radius: 5px; */
   /* border-top-left-radius: 25%; */
   /* border-top-right-radius: 25%; */
@@ -20,20 +20,20 @@ body {
 #profile {
   background-color: white;
   width: 80%;
-  margin: 0 10%;
+  margin: 1rem 10% 0 10%;
   padding: 10px;
 }
 
 #profile p {
   /* width: 35%; */
-  clear: both:
+  clear: both;
 }
 
 .infoSection {
   /* margin: 0; */
 background-color: white;
 width: 80%;
-margin: 0 10%;
+margin: 1rem 10%;
 padding: 10px;
 
 }
