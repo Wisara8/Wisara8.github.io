@@ -19,6 +19,9 @@ body {
 
 #profile {
   background-color: white;
+  width: 80%;
+  margin: 0 10%;
+  padding: 10px;
 }
 
 #profile p {
@@ -31,8 +34,8 @@ background-color: white;
 
 }
 
-@media (min-device-width: 450px) {
+/* @media (min-device-width: 450px) {
   body {
     background-color: #eee;
   }
-}
+} */
