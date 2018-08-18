@@ -41,6 +41,17 @@ body {
   display: inline-block;
 }
 
+#nav-bar span {
+  margin: 0 auto;
+  display: table;
+}
+
+@media (max-device-width: 600px) {
+  #nav-bar {
+  display: none;
+  }
+}
+
 #profile {
   background-color: white;
   width: 80%;
