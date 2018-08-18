@@ -6,11 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>William Randall</title>
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
+    <nav id="nav-bar">
+      <img class="logo" src="/images/Zoomed Profile.png">
+      <a href="#projects">PROJECTS</a>
+      <a href="#education">EDUCATION</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#employment">EMPLOYMENT</a>
+
+    </nav>
 
     <div id="profile">
       <img src="/images/Profile Pic.jpg" alt="Beer and me"/>
@@ -21,14 +31,24 @@
         I was using to design worked and decided to take the leap into coding. I love seeing the big picture of how the 
         various parts of apps work and interact with each other and am eager to work and strengthen my fundamental knowledge. 
       </p>
-      <a href="mailto:srandall845@gmail.com">srandall845@gmail.com</a>
+      <span>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:srandall845@gmail.com">srandall845@gmail.com</a>
+      </span>
       <!-- <p>Wisara8 github link</p> -->
-      <a href="https://github.com/Wisara8">Github: Wisara8</a>
+      <span>
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/Wisara8">Wisara8</a>
+      </span>
+      <span>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/william-samuel-randall-98577049/">/WilliamRandall</a>
+      </span>
     </div>
 
-    <div class="infoSection">
+    <div class="infoSection" id="projects">
       <h2>Projects</h2>
-      <h3>Market Buddy</h3>
+      <h4>Market Buddy</h4>
       <p>Ever wonder if IGA is cheaper than Wholefoods? This app built for the Lighthouse Labs final project 
         allows users to create grocery lists online and search nearby stores to see the total grocery 
         list price broken down per store. A mobile companion app allows users to view their list and check off 
@@ -36,7 +56,7 @@
       </p>
       <p> This project utilizes: React, React Router, React Native, Node, Express, PSQL, Knex, and Materialize.</p>
 
-      <h3>Quickadoo</h3>
+      <h4>Quickadoo</h4>
       <p>A simple and fast Doodle clone. Web development students worked in groups of 3 to combine their front and back 
         and skills learned during the first half of the bootcamp to produce a web app from scratch. My contribution was 
         designing and maintaining the PSQL database and aiding in front end Javascript.
@@ -46,17 +66,17 @@
       </p>
     </div>
 
-    <div class="infoSection">
+    <div class="infoSection" id="education">
       <h2>Education</h2>
-      <h3>Lighthouse Labs - 2018</h3>
+      <h4>Lighthouse Labs - 2018</h4>
       <p>10 week web development bootcamp where students practice learn coding skills through a combination of 
         lectures, excercise, and projects.
       </p>
-      <h3>BCIT - 2010 to 2012</h3>
+      <h4>BCIT - 2010 to 2012</h4>
       <p>Diploma in Mechanical Technology speacializing in Systems Design</p>
     </div>
 
-    <div class="infoSection">
+    <div class="infoSection" id="skills">
       <h2>Skills</h2>
       <ul>
         <li>Javascript</li>
@@ -70,19 +90,19 @@
       </ul>
     </div>
 
-    <div class="infoSection">
+    <div class="infoSection" id="employment">
       <h2>Employment</h2>
-      <h3>FWD Engineering - Intermediate Mechanical Designer</h3>
+      <h4>FWD Engineering - Intermediate Mechanical Designer</h4>
       <p>Designed mechanical systems as part of a team. Mentored and reviewed junior designer work and aided seniors in 
         implementing design. Derived, carried out, and updated seniors on daily or weekly project goals. 
         Primary point of communication with outside offices on the project team. Utilized the latest versions of 
         Revit and AutoCAD.
       </p>
-      <h3>Integral Group - Junior Mechanical Designer</h3>
+      <h4>Integral Group - Junior Mechanical Designer</h4>
       <p>Designing mechanical systems within new buildings as part of a team using the latest design software. Hop on and 
         off projects to support intermediate and senior staff to meet deadlines as required.
       </p>
-      <h3>Enigneered Air - Mechanical Technologist</h3>
+      <h4>Enigneered Air - Mechanical Technologist</h4>
       <p>Design, testing (troubleshooting) , and calibration of industrial grade HVAC units.</p>
     </div>
 
