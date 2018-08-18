@@ -20,7 +20,7 @@ body {
   top: 0;
   left: 0;
   height: 80px;
-  background-color: #00a087;
+  background-color: #f8f9fac7;
   color: #e8fdff;
   padding-left: 2em;
   padding-right: 2em;
@@ -34,13 +34,17 @@ body {
 }
 
 #nav-bar a {
-  
+  padding-right: 2rem;
+  line-height: 80px;
+  font-weight: bold;
+  color: #222222;
+  display: inline-block;
 }
 
 #profile {
   background-color: white;
   width: 80%;
-  margin: 1rem 10% 0 10%;
+  margin: 6rem 10% 0 10%;
   padding: 10px;
 }
 
@@ -49,6 +53,9 @@ body {
   clear: both;
 }
 
+#profile span {
+  margin-right: 1rem;
+}
 .infoSection {
   /* margin: 0; */
 background-color: white;
