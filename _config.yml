@@ -13,22 +13,44 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+
+
+title: My Homepage
+email: srandall845@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  wisara8
 
 # Build settings
 markdown: kramdown
 # theme: minima
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+
+author:
+  name             : "William Samuel Randall"
+  avatar           : "/images/Profile Pic.jpg " # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Junior Web Developer, former Mechanical Technologist"
+  location         : "Vancouver, Canada"
+  email            : "srandall845@gmail.com"
+  home             : # null (default), "absolute or relative url to link to author home"
+  github           : "wisara8"
+  linkedin         : "william-samuel-randall-98577049" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+
 plugins:
   - jekyll-feed
 
