@@ -1,0 +1,15 @@
+---
+label: Test Setup
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: Test
+  label: Title
+  description: A title name
+- type: datetime
+  name: date
+  label: Date
+  description: Enter date
+  config:
+    date_format: MM/DD/YYYY
