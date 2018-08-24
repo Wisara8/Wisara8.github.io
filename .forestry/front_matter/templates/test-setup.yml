@@ -13,3 +13,5 @@ fields:
   description: Enter date
   config:
     date_format: MM/DD/YYYY
+pages:
+- _posts/test.md
