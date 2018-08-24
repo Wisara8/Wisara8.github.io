@@ -54,7 +54,7 @@ defaults:
 
 author:
   name             : "William Samuel Randall"
-  avatar           : "/images/Profile Pic.jpg " # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/Zoomed Profile.png " # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Junior Web Developer, former Mechanical Technologist"
   location         : "Vancouver, Canada"
   email            : "srandall845@gmail.com"
@@ -65,6 +65,8 @@ author:
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-data
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
