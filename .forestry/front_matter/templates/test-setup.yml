@@ -14,5 +14,6 @@ fields:
   config:
     date_format: MM/DD/YYYY
 pages:
-- _posts/2018-08-25-youtube-test.md
+- _posts/blog-title.md
 - _posts/2018-08-24-test.md
+- _posts/2018-08-25-youtube-test.md
